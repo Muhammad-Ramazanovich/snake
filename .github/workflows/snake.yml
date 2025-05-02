@@ -22,7 +22,7 @@ jobs:
           github_user_name: Muhammad-Ramazanovich
           outputs: dist/github-contribution-grid-snake.svg
           color_snake: '#39d353'
-          color_dots: '#ebedf0,#9be9a8,#40c463,#30a14e,#216e39'
+          color_dots: '#ebedf0,#c6e48b,#7bc96f,#239a3b,#196127'
           animate: true
 
       - name: Push to GitHub Pages
