@@ -16,13 +16,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Generate Snake
-        uses: Platane/snk@v3
+      - name: Generate GitHub Contribution Snake
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: Muhammad-Ramazanovich
           outputs: dist/github-contribution-grid-snake.svg
-          color_snake: '#30FF70'
-          color_dots: '#39d353,#26a641,#006d32,#003820,#0f0f0f'
+          color_snake: '#39d353'
+          color_dots: '#ebedf0,#9be9a8,#40c463,#30a14e,#216e39'
           animate: true
 
       - name: Push to GitHub Pages
